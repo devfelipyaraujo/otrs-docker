@@ -2,7 +2,7 @@ version: '3'
 
 services:
   otrs:
-    image: juanluisbaptiste/otrs:latest
+    image: felipyaraujo/otrs:latest
     restart: always
     ports:
       - '80:80'
@@ -26,7 +26,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
   mariadb:
     restart: always
-    image: juanluisbaptiste/otrs-mariadb:latest
+    image: felipyaraujo/otrs-mariadb:latest
     expose:
       - "3306"
     env_file: .env
