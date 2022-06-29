@@ -6,7 +6,7 @@
 
 VERBOSE=1
 OTRS_LATEST="http://ftp.otrs.org/pub/otrs/otrs-latest.tar.gz"
-OTRS_GIT_URL="git@github.com:juanluisbaptiste/docker-otrs.git"
+OTRS_GIT_URL="git@github.com:devfelipyaraujo/otrs-docker.git"
 OTRS_UPDATE_LOG="./check_otrs_version.log"
 GIT_PUSH=0
 #Supported OTRS versions to avoid breaking the image if the major version upgrade
